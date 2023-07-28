@@ -1,0 +1,25 @@
+exports[`Home Component renders correctly 1`] = `
+<div
+  className="counter-body">
+  <span>
+     Vous avez cliqué sur le compteur 
+    <span
+      data-testid="count">
+      0
+    </span>
+     fois
+  </span>
+  <div
+    className="buttons">
+    <button
+      onClick={[Function]}>
+      + Ajouter un clic
+    </button>
+    <button
+      className="disabled"
+      onClick={[Function]}>
+      - Retirer un clic
+    </button>
+  </div>
+</div>
+`;

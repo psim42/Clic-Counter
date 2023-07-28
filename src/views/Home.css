@@ -1,0 +1,40 @@
+.counter-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 500px;
+    border: none;
+    padding: 10px 10px;
+    color: #fff;
+    background-color: #151788;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    user-select: none; 
+}
+button:hover{
+    background-color: #2b2ed4;
+}
+
+button.red{
+    background-color: #9e0303;
+}
+button.red:hover{
+    background-color: #d10000;
+}
+
+button.disabled{
+    cursor: not-allowed;
+    background-color: #dddddd;
+    color: #f0f0f0;
+}

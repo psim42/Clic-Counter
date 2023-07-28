@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+h1{
+    user-select: none; 
+}
+
+h1, p, span {
+    font-family: 'Arial';
+}
+
